@@ -29,7 +29,7 @@ public class MyRunner implements ApplicationRunner {
         System.out.println("myboot.name = " + name);
         System.out.println("myboot.age = " + age);
         System.out.println("myboot.fullName = " + fullName);
-        System.out.println("Git Test");
+        System.out.println(">>Git Test");
 
         System.out.println("VM Argument foo = " + args.containsOption("foo")); //foo라는 argument가 들어있습니까?라고 물어보는 것
         System.out.println("Program Argument bar = " + args.containsOption("bar"));
